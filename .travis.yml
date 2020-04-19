@@ -5,6 +5,10 @@ node_js:
 install:
   - npm install
 
+before_script:
+  - npm install -g tslint
+  - npm install -g jest
+
 script:
   - cd foundations-zh && npm run lint
 
