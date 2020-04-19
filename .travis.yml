@@ -6,7 +6,7 @@ install:
   - npm install
 
 before_script:
-  - cd foundations
+  - cd foundations-zh
   - npm install -g tslint jest typescript
 
 script:
