@@ -64,6 +64,7 @@
     "style-loader": "^1.0.0",
     "ts-jest": "^25.4.0",
     "ts-loader": "^7.0.0",
+    "tslint-config-prettier": "^1.18.0",
     "url-loader": "^2.2.0",
     "watermark-dom": "^2.3.0",
     "webpack": "^4.41.2",
@@ -78,7 +79,6 @@
     "@babel/runtime": "^7.7.2",
     "tslib": "^1.10.0",
     "tslint": "^6.1.1",
-    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
   }
 }
