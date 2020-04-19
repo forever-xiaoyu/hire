@@ -1,0 +1,14 @@
+language: node_js
+
+git:
+  submodules: false
+
+install:
+  - npm i
+test:
+  - npm run lint
+  - npm run test
+
+branches:
+  only:
+    - master

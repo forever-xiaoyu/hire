@@ -7,6 +7,16 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "importHelpers": true,
-    "noEmitHelpers": true
-  }
+    "noEmitHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
+  "include": [
+    "./src", "tests"
+  ],
+  "exclude": [
+    "./node_modules"  
+  ]
 }
