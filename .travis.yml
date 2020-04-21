@@ -5,12 +5,11 @@ node_js:
 install:
   - npm install
 
-before_script:
+before_install:
   - cd foundations-zh
-  - npm install -g tslint jest @types/jest ts-jest typescript
 
 script:
-  # - npm run lint
+  - npm run lint
 
 test:
   - npm run test
