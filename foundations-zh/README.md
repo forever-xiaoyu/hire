@@ -1,5 +1,7 @@
 # Error Handler #
 
+[![Build Status](https://travis-ci.com/forever-xiaoyu/hire.svg?branch=master)](https://travis-ci.com/forever-xiaoyu/hire)
+
 ## Start ##
 
 ```bash
@@ -31,7 +33,7 @@ npm run test    # 单元测试
 
 ## Structure ##
 
-``` vim
+``` text
     .
     ├── config            # webpack 配置
     ├── dist              # 打包目录

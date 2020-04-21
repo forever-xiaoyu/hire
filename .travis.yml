@@ -10,8 +10,6 @@ before_install:
 
 script:
   - npm run lint
-
-test:
   - npm run test
 
 branches:
