@@ -10,7 +10,7 @@
     "serve": "webpack-dev-server --env development --open --config config/webpack.base.conf.js",
     "build:prod": "webpack --env production --config config/webpack.base.conf.js",
     "build": "shx rm -rf lib && tsc -p tsconfig.json --outDir lib",
-    "lint": "tslint -c tslint.json --project tsconfig.json 'src/**/*.ts'",
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix",
     "test": "jest"
   },
   "jest": {

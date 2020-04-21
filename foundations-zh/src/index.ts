@@ -34,7 +34,7 @@ class ErrorHandler {
     const errorMessage: string = this.errorMessage.split(':')[1]
     const errorStackArr: Array<string> = this.errorStack.split('\n')
     const errorStackInfo: any = errorStackArr
-      .map((lineStr) => {
+      .map(lineStr => {
         return formateError(lineStr)
       })
       .filter(Boolean)
