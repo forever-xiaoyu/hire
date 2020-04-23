@@ -46,7 +46,6 @@ npm run test    # 单元测试
     │   ├── index.ts             # 入口文件
     ├── tests             # 单元测试
     ├── .prettierrc
-    ├── .travis.yml
     ├── commitlint.config.js
     ├── husky.config.js
     ├── package.json
